@@ -1,0 +1,188 @@
+<!doctype html>
+<html data-theme="retro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/output.css" rel="stylesheet">
+  
+</head>
+
+<body>
+    <div class="navbar bg-base-100 shadow-sm sticky top-0 z-50 ">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mr-10 mt-3 w-52 p-2 shadow">
+            <li><a>a propos</a></li>
+            <li><a>formations</a></li>
+            <li><a>projets</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center hidden lg:flex ">
+        <ul class="menu menu-horizontal px-1 ">
+          <li><a href="#apropos">A propos</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#technos">Projets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="p-10">
+      <h1 id="apropos" class="text-3xl font-bold">
+        M. BASSE-GLACE
+      </h1>
+      <h2 class="text-2xl">Cybersécurité</h2>
+      <div class="divider divider-accent"></div>
+      <section class="flex flex-wrap justify-between">
+        <div>
+        <h1 class="text-1xl font-bold">A propos</h1>   
+        </div>
+        <div>
+        
+        <div class="flex justify-end">
+          <div class="relative w-2/3">
+            <div id="formations" class="bg-base-200  rounded-lg p-3 mr-5">
+              je suis un jeune spécialisé en cybersécurité, passionné par la protection des systèmes informatiques et des données sensibles. Mon expertise se concentre sur l'analyse des risques, l’évaluation des vulnérabilités et la mise en place de solutions de sécurité pour prévenir les menaces.
+
+              Avec une approche méthodique et orientée vers la résolution de problèmes complexes, je m'efforce de rester à la pointe des dernières évolutions technologiques du secteur. Je suis capable d'identifier, analyser et contrer les attaques pour garantir la sécurité des infrastructures numériques.
+
+              Je participe activement à des projets de cybersécurité, en renforçant les protocoles de sécurité et en sensibilisant les entreprises aux bonnes pratiques. Mon engagement dans des formations continues et des certifications me permet d’élargir constamment mes compétences pour faire face aux défis d’un domaine en perpétuelle évolution.
+            </div>
+            
+          </div>
+        </div>
+        
+        </div>
+      </section>
+      <br>
+      <div class="divider divider-accent"></div>
+      <section class="flex flex-wrap justify-between">
+        <div>
+        <h1 class="text-1xl font-bold">Formations</h1>
+        
+        </div>
+        <div>
+        
+        <div class="flex justify-end">
+          <div class="relative w-2/3">
+            <div id="technos"class="bg-base-200  rounded-lg p-3 mr-5">
+              J'ai commencé mon parcours scolaire au lycée la bruyères à Versailles, où j'ai acquis une solide base en sciences et en technologies. Passionné par l'informatique, j'ai ensuite intégré l'EFFREI, une école spécialisée en ingénierie informatique, où je me suis concentré sur la cybersécurité. Ce programme m'a permis de développer des compétences techniques avancées et de me préparer à relever les défis de la sécurité numérique dans un monde en constante évolution.
+            </div>
+            
+          </div>
+        </div>
+        
+        </div>
+      </section><br>
+      <div class="divider divider-accent"></div>
+      
+      <h1 class="text-1xl font-bold">Technos maitrisées: </h1><br>
+      <div class="flex flex-wrap justify-evenly">
+        <div class="card bg-base-100 w-96 shadow-sm mb-5">
+          <figure>
+            <img
+              src="Images/calculatrice.png"
+              alt="emoji_calculatrice" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Calculatrice</h2>
+            <p>technologies utilisées : JavaScript, HTML, DaisyUI et TailwindCSS</p>
+            <div class="card-actions justify-end">
+              <label for="my_modal_7_1" class="btn btn-primary">essayer</label>
+            </div>
+          </div>
+        </div>
+        <input type="checkbox" id="my_modal_7_1" class="modal-toggle " />
+        <div class="modal" role="dialog">
+          <div class="modal-box">
+            <h3 class="text-lg font-bold">Calculatrice</h3>
+            <div class="pl-18 pt-5">
+              <div id="texte_calculatrice" class="border-2 border-success text-success bg-transparent rounded-lg p-4 max-w-xs text-right">
+                Calculette
+              </div>
+            </div>
+            
+            <div class="grid grid-flow-col grid-rows-4 gap-4 pl-20 pr-25 pt-5">
+              <div><button id="7" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">7</button></div>
+              <div><button id="4" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">4</button></div>
+              <div><button id="3" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">3</button></div>
+              <div><button id="=" class="btn btn-primary w-16 h-16 rounded-lg">=</button></div>
+              <div><button id="8" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">8</button></div>
+              <div><button id="5" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">5</button></div>
+              <div><button id="2" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">2</button></div>
+              <div><button id="0" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">0</button></div>
+              <div><button id="9" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">9</button></div>
+              <div><button id="6" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">6</button></div>
+              <div><button id="1" class="btn btn-secondary w-16 h-16 rounded-lg chiffre">1</button></div>
+              <div><button id="c" class="btn btn-accent w-16 h-16 rounded-lg">C</button></div>
+              <div><button id="+" class="btn btn-success w-16 h-16 rounded-lg signe">+</button></div>
+              <div><button id="-" class="btn btn-success w-16 h-16 rounded-lg signe">-</button></div>
+              <div><button id="*" class="btn btn-success w-16 h-16 rounded-lg signe">*</button></div>
+              <div><button id="/" class="btn btn-success w-16 h-16 rounded-lg signe">/</button></div>
+            </div>
+          </div>
+        <label class="modal-backdrop" for="my_modal_7_1">Close</label>
+        </div>
+
+        <div class="card bg-base-100 w-96 shadow-sm mb-5">
+          <figure>
+            <img
+              src="Images/questionnaire.png"
+              alt="emoji_questionnaire" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Questionnaire de contact</h2>
+            <p>Un questionnaire developpé avec JavaScript, HTML, DaisyUI et TailwindCSS</p>
+            <div class="card-actions justify-end">
+              <label for="my_modal_7_2" class="btn btn-primary">contacter</label>
+            </div>
+          </div>
+        </div>
+        <input type="checkbox" id="my_modal_7_2" class="modal-toggle" />
+        <div class="modal" role="dialog">
+          <div class="modal-box">
+            <h3 class="text-lg font-bold">Questionnaire</h3>
+            <div>
+              <h1 id="qstn" class="text-1xl font-bold pt-5">Car Dieu a tant aimé le monde qu'il a donné son fils unique Jésus-Christ afin que quiconque croit ne périsse point mais qu'il ait la vie éternelle</h1>
+              <div class="p-5">
+                <input id="choix1" type="radio" name="radio-1" class="radio" checked="checked" />
+                <label for="choix1" id="choice1"> Jean 3:16 </label><br>
+                <input id="choix2" type="radio" name="radio-1" class="radio" />
+                <label for="choix2" id="choice2"> Mathieu 24:7 </label><br>
+                <div class="pt-5">
+                  
+                  <button id="sbmt" class="btn btn-primary">Valider</button>
+                </div>
+                <p id="result1"></p>
+              </div>
+            </div>
+          </div>
+        <label class="modal-backdrop" for="my_modal_7_2">Close</label>
+        </div>
+
+
+       
+        
+      
+        </div>
+    </div>
+    <footer class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+      
+      <aside>
+        <p>Copyright © 2025 - All right reserved</p>
+      </aside>
+    </footer>
+  
+  <script src="js/calculatrice.js"></script>
+  <script src="js/questionnaire.js"></script>
+</body>
+
+
+
+
+
+    
